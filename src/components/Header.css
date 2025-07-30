@@ -1,7 +1,33 @@
-.App-Header-Row{
-    display: flex;
-    justify-content: space-between;
-    background-color: lightblue;
-    padding: 5px;
-    font-size: 20px;
+.App-Header-Row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-Header-Row h2 {
+  margin: 0;
+  color: white;
+}
+
+.App-Header-Row div {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.App-Header-Row a {
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.App-Header-Row a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
 }

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { appContext } from "../App";
 import { useContext } from "react";
 import axios from "axios";
+import "./Order.css";
 export default function Orders() {
   const API = process.env.REACT_APP_API;
   const { orders, setOrders, cart, user } = useContext(appContext);

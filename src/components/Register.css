@@ -1,10 +1,54 @@
-.App-Register-Row{
-    display:flex;
-    justify-content: center;
+.App-Register-Row {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
 }
 
-.App-Register-Row div{
-    margin:10px;
-    padding: 10px;
-    border: 1px solid gray;
+.App-Register-Row div {
+  margin: 0;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.App-Register-Row h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.App-Register-Row input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.App-Register-Row button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.App-Register-Row button:hover {
+  background-color: #218838;
+}
+
+.register-links {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
 }

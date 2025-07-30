@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { appContext } from "../App";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Login.css";
 import axios from "axios";
 export default function Login() {
   const Navigate = useNavigate();
